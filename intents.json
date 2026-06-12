@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up", "Howdy"],
+      "responses": ["Hello! How can I help you today?", "Hi there!", "Hey! What's on your mind?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Exit", "Quit", "Goodbye", "See you later", "Farewell"],
+      "responses": ["Goodbye! Have a great day!", "See you later!", "Take care!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name", "Who are you", "What should I call you"],
+      "responses": ["I'm PyChat, a Python chatbot built with OOP and Functional programming!"]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": ["What can you do", "Help", "Features", "What do you know", "How can you help"],
+      "responses": ["I can chat with you, search Wikipedia, tell the time, track your mood, and save our conversation history!"]
+    },
+    {
+      "tag": "college",
+      "patterns": ["What is this project", "Why were you made", "College", "Who built you", "How were you made"],
+      "responses": ["I'm a college project demonstrating Object-Oriented Programming (User, Bot, ChatSession) and Functional Programming (filters, parsers, text processing)."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it", "Current time", "Tell me the time", "What is the time"],
+      "responses": []
+    },
+    {
+      "tag": "wikipedia",
+      "patterns": ["Who is", "What is", "Tell me about", "Search for", "Look up", "Explain", "Define"],
+      "responses": []
+    },
+    {
+      "tag": "mood",
+      "patterns": ["How am I feeling", "My mood", "My sentiment", "What is my mood", "How have I been"],
+      "responses": []
+    },
+    {
+      "tag": "stats",
+      "patterns": ["Session stats", "Chat stats", "Statistics", "How many messages", "Show stats"],
+      "responses": []
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Cheers", "Much appreciated", "That was helpful"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you", "What is your age", "When were you created"],
+      "responses": ["I was created this semester as a college project — so I'm pretty new!"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Say something funny", "Make me laugh", "Joke"],
+      "responses": [
+        "Why do Python programmers prefer dark mode? Because light attracts bugs!",
+        "Why did the programmer quit his job? Because he didn't get arrays!",
+        "I told a joke about recursion once... I told a joke about recursion once..."
+      ]
+    },
+    {
+      "tag": "math",
+      "patterns": ["calculate", "compute", "what is", "add", "subtract",
+                   "multiply", "divide", "plus", "minus", "times", "squared"],
+      "responses": []
+    },
+    {
+      "tag": "persona",
+      "patterns": ["switch to formal", "switch to friendly", "switch to sarcastic",
+                   "be formal", "be friendly", "be sarcastic",
+                   "formal mode", "friendly mode", "sarcastic mode",
+                   "change persona", "change mode"],
+      "responses": []
+    },
+    {
+      "tag": "memory_recall",
+      "patterns": ["what is my name", "do you know my name", "what's my name",
+                   "do you remember", "what did i tell you", "what do you know about me",
+                   "how old am i", "where do i live", "what is my hobby"],
+      "responses": []
+    }
+  ]
+}
